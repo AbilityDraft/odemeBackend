@@ -21,7 +21,6 @@ public class OdemeController {
         return odemeService.getOdemeKontrol();
     }
 
-
     @PostMapping("/odemeCekme")
     @CrossOrigin
     public OdemeCekmeResponseDTO getOdemeKontrol(@RequestBody OdemeCekmeRequestDTO odemeCekmeRequestDTO) {
